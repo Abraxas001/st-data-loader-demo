@@ -10,9 +10,19 @@ from snowflake.connector.pandas_tools import write_pandas
 #    connection_parameters = json.load(f)  
 #session = Session.builder.configs(connection_parameters).create()
 
+#st.title("User Input Demo")
+# Text input widget
+entered_username = st.text_input("Enter Username:")
+
+#st.title("User Input Demo")
+# Text input widget
+entered_password = st.text_input("Enter Password:")
+
+
+
 # Connection parameters
-snowflake_user = "sgupta"
-snowflake_password = "snowflakeSg@54321"
+snowflake_user = entered_username
+snowflake_password = entered_password
 snowflake_account = "oyb62571"
 snowflake_warehouse = "COMPUTE_WH"
 snowflake_database = "STREAMLIT_TEST"
