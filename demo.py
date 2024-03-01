@@ -1,9 +1,9 @@
-
 import streamlit as st
 import pandas as pd
 import json
 import csv
 import snowflake.connector
+from snowflake.connector.pandas_tools import write_pandas
 
 #connect to Snowflake
 #with open('creds.json') as f:
@@ -28,18 +28,13 @@ conn = snowflake.connector.connect(
     schema=snowflake_schema
 )
 
-# Create cursor
-cursor = conn.cursor()
-
 file = st.file_uploader("Drop your CSV here to load to Snowflake", type={"csv"})
 if file is not None:
     file_df = pd.read_csv(file, engine='python', sep=',',  quotechar='"')
-    snowparkDf=cursor.write_pandas(file_df,file.name,auto_create_table = True, overwrite=True)
+    snowparkDf=write_pandas(conn, file_df,file.name,auto_create_table = True, overwrite=True)
 
     #print(file_df)
 
-# Commit the changes
-conn.commit()
 
 # Close the connection
 conn.close()    
