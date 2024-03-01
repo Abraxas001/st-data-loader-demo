@@ -1,0 +1,9 @@
+{
+    "account": "oyb62571",
+    "user": "sgupta",
+    "role": "ACCOUNTADMIN",
+    "password": "snowflakeSg@54321",
+    "warehouse": "COMPUTE_WH",
+    "database": "STREAMLIT_TEST",
+    "schema": "DATA"
+  }
