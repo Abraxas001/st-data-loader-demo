@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 import csv
-from snowflake.snowpark import Session
+#from snowflake.snowpark import Session
 
 
 #st.write('Hello World!')
