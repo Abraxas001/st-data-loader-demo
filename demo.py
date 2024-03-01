@@ -31,7 +31,7 @@ conn = snowflake.connector.connect(
 file = st.file_uploader("Drop your CSV here to load to Snowflake", type={"csv"})
 if file is not None:
     file_df = pd.read_csv(file, engine='python', sep=',',  quotechar='"')
-    snowparkDf=write_pandas(conn, file_df,file.name,auto_create = True, overwrite=True)
+    snowparkDf=write_pandas(conn, file_df,'test.csv')
 
     #print(file_df)
 
