@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import json
 import csv
-#import snowflake.connector
-#from snowflake.connector.pandas_tools import write_pandas
+import snowflake.connector
+from snowflake.connector.pandas_tools import write_pandas
 
 #connect to Snowflake
 #with open('creds.json') as f:
