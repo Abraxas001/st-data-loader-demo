@@ -14,7 +14,10 @@ st.sidebar.image("https://media.licdn.com/dms/image/C4D0BAQE6ZHO1FV9vKg/company-
 with st.sidebar:
         st.write("Welcome to the App.")
 
-
+st.markdown('##')
+st.markdown('##')
+st.markdown('##')
+st.markdown('##')
 #st.title("User Input Demo")
 # Text input widget
 entered_username = st.text_input("Enter Username:")
