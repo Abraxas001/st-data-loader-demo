@@ -16,8 +16,6 @@ with st.sidebar:
 
 st.markdown('##')
 st.markdown('##')
-st.markdown('##')
-st.markdown('##')
 #st.title("User Input Demo")
 # Text input widget
 entered_username = st.text_input("Enter Username:")
