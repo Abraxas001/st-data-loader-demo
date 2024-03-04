@@ -13,7 +13,7 @@ from snowflake.connector.pandas_tools import write_pandas
 st.sidebar.image("https://media.licdn.com/dms/image/C4D0BAQE6ZHO1FV9vKg/company-logo_200_200/0/1630562080389/acadiaio_logo?e=2147483647&v=beta&t=jFxbXWjrINucRHnYLNysmZ3HvnvNSkMiQmA7aPYaRkQ", width=50)
 with st.sidebar:
         st.title("Welcome to the App.")
-        st.write("By default this app will through an error as we are not connected to a snowflake account yet. Enter you Username and Password to connect and enjoy this app. Thanks!")
+        st.write("By default this app will through an error as we are not connected to a snowflake account yet. Enter your Username and Password to connect and enjoy this app. Thanks!")
 
 st.markdown('##')
 #st.title("User Input Demo")
