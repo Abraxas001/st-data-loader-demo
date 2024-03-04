@@ -10,6 +10,14 @@ from snowflake.connector.pandas_tools import write_pandas
 #    connection_parameters = json.load(f)  
 #session = Session.builder.configs(connection_parameters).create()
 
+with st.sidebar:
+    with st.echo():
+        st.write("This code will be printed to the sidebar.")
+
+    with st.spinner("Loading..."):
+        time.sleep(5)
+    st.success("Done!")
+
 #st.title("User Input Demo")
 # Text input widget
 entered_username = st.text_input("Enter Username:")
