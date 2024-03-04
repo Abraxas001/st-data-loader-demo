@@ -17,7 +17,7 @@ entered_username = st.text_input("Enter Username:")
 #st.title("User Input Demo")
 # Text input widget
 entered_password = st.text_input("Enter Password:")
-
+st.markdown('##')
 
 
 # Connection parameters
