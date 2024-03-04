@@ -1,4 +1,4 @@
-import streamlit as st
+ome import streamlit as st
 import pandas as pd
 import json
 import csv
@@ -11,7 +11,7 @@ from snowflake.connector.pandas_tools import write_pandas
 #session = Session.builder.configs(connection_parameters).create()
 
 with st.sidebar:
-        st.write("This code will be printed to the sidebar.")
+        st.write("Welcome to the App.")
 
 
 #st.title("User Input Demo")
