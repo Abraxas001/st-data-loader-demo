@@ -11,7 +11,6 @@ from snowflake.connector.pandas_tools import write_pandas
 #session = Session.builder.configs(connection_parameters).create()
 
 with st.sidebar:
-    with st.echo():
         st.write("This code will be printed to the sidebar.")
 
 
