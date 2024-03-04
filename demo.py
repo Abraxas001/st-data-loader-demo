@@ -10,7 +10,7 @@ from snowflake.connector.pandas_tools import write_pandas
 #    connection_parameters = json.load(f)  
 #session = Session.builder.configs(connection_parameters).create()
 
-st.sidebar.image("C:\Users\sgupta.ACADIA\Downloads\acadiaio_logo.jpg", use_column_width=True)
+st.sidebar.image("C:\Users\sgupta.ACADIA\Downloads\acadiaio_logo.jpg")
 with st.sidebar:
         st.write("Welcome to the App.")
 
