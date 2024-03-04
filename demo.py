@@ -15,7 +15,6 @@ with st.sidebar:
         st.write("Welcome to the App.")
 
 st.markdown('##')
-st.markdown('##')
 #st.title("User Input Demo")
 # Text input widget
 entered_username = st.text_input("Enter Username:")
@@ -25,22 +24,7 @@ entered_username = st.text_input("Enter Username:")
 entered_password = st.text_input("Enter Password:")
 st.markdown('##')
 st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
-st.markdown('##')
+
 
 
 # Connection parameters
