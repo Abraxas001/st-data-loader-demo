@@ -31,7 +31,7 @@ st.markdown('##')
 # Connection parameters
 snowflake_user = entered_username
 snowflake_password = entered_password
-snowflake_account = "RO41987"
+snowflake_account = "ro41987.ap-southeast-1"
 snowflake_warehouse = "COMPUTE_WH"
 snowflake_database = "STREAMLIT_TEST"
 snowflake_schema = "DATA"
