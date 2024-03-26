@@ -15,22 +15,22 @@ with st.sidebar:
         st.title("Welcome to the App.")
         st.write("By default this app will through an error as we are not connected to a snowflake account yet. Enter your Username and Password to connect and enjoy this app. Thanks!")
 
-st.markdown('##')
+#st.markdown('##')
 #st.title("User Input Demo")
 # Text input widget
-entered_username = st.text_input("Enter Username:")
+#entered_username = st.text_input("Enter Username:")
 
 #st.title("User Input Demo")
 # Text input widget
-entered_password = st.text_input("Enter Password:", type="password")
+#entered_password = st.text_input("Enter Password:", type="password")
 st.markdown('##')
 st.markdown('##')
 
 
 
 # Connection parameters
-snowflake_user = entered_username
-snowflake_password = entered_password
+snowflake_user = "sgupta"
+snowflake_password = "snowflakeSg@54321"
 snowflake_account = "ro41987.ap-southeast-1"
 snowflake_warehouse = "COMPUTE_WH"
 snowflake_database = "STREAMLIT_TEST"
